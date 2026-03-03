@@ -1,23 +1,21 @@
 /**
  * OOPS Banner Application
  *
- * UC1: Print literal text "OOPS" to the console.
+ * UC2: Display "OOPS" as a 7-line ASCII banner
+ * using spaces and '*' characters.
  *
- * This class serves as the entry point of the application.
- *
- * @author YourName
- * @version 1.0
+ * @version 2.0
  */
 public class OOPSBannerApp {
 
-    /**
-     * Main method – application entry point.
-     *
-     * @param args command-line arguments
-     */
     public static void main(String[] args) {
 
-        // UC1: Print literal text "OOPS"
-        System.out.println("OOPS");
+        System.out.println(" *****   *****   ******   ***** ");
+        System.out.println("*     * *     * *        *     *");
+        System.out.println("*     * *     * *        *      ");
+        System.out.println("*     * *     * ******    ***** ");
+        System.out.println("*     * *     * *              *");
+        System.out.println("*     * *     * *        *     *");
+        System.out.println(" *****   *****   *         ***** ");
     }
 }
